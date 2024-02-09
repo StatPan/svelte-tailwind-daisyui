@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      transform: {
+        'translate-y-1': 'translateY(0.25rem)' // adjust as needed
+      }
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui : {

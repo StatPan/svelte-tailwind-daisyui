@@ -30,4 +30,6 @@ export const themes = [
 	'winter'
 ];
 
+export const basic_themes = ['light','dark']
+
 export default themes;
