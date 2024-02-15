@@ -12,11 +12,9 @@
 
 <Navbar />
 
-<main>
-	<slot>
-		<Body />
-	</slot>
-</main>
+<Body>
+	<slot></slot>
+</Body>
 
 <Footer />
 
